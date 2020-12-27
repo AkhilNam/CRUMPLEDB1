@@ -26,10 +26,8 @@ function setup() {
 function draw() {
   if (gameState === "start") {
     background("black");
-    textSize(20);
-    fill("red");
-    text("This is small game that will teach you the importance of throwing away your trash. \n                 Press Up Arrow to Start, and Up to throw away the trash.", 50, 200)
-    if (keyCode === UP_ARROW) {
+   
+  if (keyCode === UP_ARROW) {
       gameState = "play"
     }
   }
