@@ -26,7 +26,7 @@ function setup() {
 function draw() {
   if (gameState === "start") {
     background("black");
-   
+   text("up arrow to start")
   if (keyCode === UP_ARROW) {
       gameState = "play"
     }
